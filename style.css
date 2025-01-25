@@ -549,6 +549,7 @@ nav{
   }
 
   .krediteklif{
+    
     h1{
       font-size: 36px;
       color: #262626;
@@ -622,7 +623,8 @@ nav{
 
     .devambutton1{
       width: 95%;
-      margin: 0px 30px;
+      text-align: center;
+      
     }
 
    .devambutton1 button{
@@ -643,7 +645,9 @@ nav{
 
    .kreditkar{
     padding: 48px 0;
+    height: 100vh;
    }
+   
 
    #kal11{
     font-size: 22px;
@@ -674,6 +678,7 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    
    }
 
    .mebleg1 input[type='text']{
@@ -1501,6 +1506,7 @@ nav{
         }
 
         .krediteklif{
+          max-width: 900px;
          padding: 48px 50px;
         }
 
@@ -1550,7 +1556,7 @@ nav{
 
         #kal11{
           font-size:36px;
-          margin: 0px 0px 48px;
+          margin: 0px 10px;
         }
 
         #range1{ margin-top: -2px;}
@@ -1583,6 +1589,11 @@ nav{
           font-size: 16px;
         }
 
+        .finn input{
+          width: 100%;
+        }
+
+        
         #konvertor{
           font-size: 24px;
           margin: 0px 0px 24px;
